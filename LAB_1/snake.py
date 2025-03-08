@@ -59,6 +59,7 @@ class Snake(Problem):
     def goal_test(self, state):
         return len(state[1]) == 0
 
+
 if __name__ == '__main__':
     n_green_apples = int(input())
     green_apples = []
